@@ -1,20 +1,17 @@
-#Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Arkadium scripts for Zabbix
+This is collection of Windows and Linux scrips that run on Zabbix Agent
 
-#Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## How to use
 
-#Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+1. Put needed folder from repository root to "c:\Program Files\Zabbix Agent\" or "/etc/zabbix/externalscripts/"
+2. Add appropriate part from additional.conf to "c:\Program Files\Zabbix Agent\additional.conf" or "/etc/zabbix/zabbix_agentd.conf"
 
-#Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+## Content
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Templates
+* Ark Template App Microsoft IIS autodiscovery
+* Ark Template Cert Expiration Monitoring
+* Ark Template App Windows Task Scheduler
+* Ark Template Apache
+* Ark Template App Nginx
+* Ark Template App PHP-FPM

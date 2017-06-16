@@ -1,0 +1,6 @@
+ZabbixAgentAutoUpdater
+GoogleUpdateTaskMachine
+ZabbixExchange
+ZabbixWindowsUpdateCheck
+Optimize_Start_Menu_Cache_Files
+IUM-F1E24CA0-B63E-4F13-A9E3-4ADE3BFF3473
